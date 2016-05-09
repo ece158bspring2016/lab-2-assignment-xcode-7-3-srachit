@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C0F4A431CE006C90077F472 /* PlayerDetailsViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F4A421CE006C90077F472 /* PlayerDetailsViewControllerTableViewController.swift */; };
+		3C0F4A451CE00BDE0077F472 /* GamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0F4A441CE00BDE0077F472 /* GamePickerViewController.swift */; };
 		8244048C1BA2816A005DDDD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8244048B1BA2816A005DDDD7 /* AppDelegate.swift */; };
 		824404911BA2816A005DDDD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8244048F1BA2816A005DDDD7 /* Main.storyboard */; };
 		824404931BA2816A005DDDD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824404921BA2816A005DDDD7 /* Assets.xcassets */; };
 		824404961BA2816A005DDDD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824404941BA2816A005DDDD7 /* LaunchScreen.storyboard */; };
-		8244049E1BA3BB4A005DDDD7 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8244049D1BA3BB4A005DDDD7 /* PlayersViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		824404A01BA3BB79005DDDD7 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8244049F1BA3BB79005DDDD7 /* Player.swift */; settings = {ASSET_TAGS = (); }; };
-		824404A21BA3BBC9005DDDD7 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824404A11BA3BBC9005DDDD7 /* SampleData.swift */; settings = {ASSET_TAGS = (); }; };
-		824404A41BA3BE88005DDDD7 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824404A31BA3BE88005DDDD7 /* PlayerCell.swift */; settings = {ASSET_TAGS = (); }; };
+		8244049E1BA3BB4A005DDDD7 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8244049D1BA3BB4A005DDDD7 /* PlayersViewController.swift */; };
+		824404A01BA3BB79005DDDD7 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8244049F1BA3BB79005DDDD7 /* Player.swift */; };
+		824404A21BA3BBC9005DDDD7 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824404A11BA3BBC9005DDDD7 /* SampleData.swift */; };
+		824404A41BA3BE88005DDDD7 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824404A31BA3BE88005DDDD7 /* PlayerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C0F4A421CE006C90077F472 /* PlayerDetailsViewControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		3C0F4A441CE00BDE0077F472 /* GamePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePickerViewController.swift; sourceTree = "<group>"; };
 		824404881BA2816A005DDDD7 /* Ratings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ratings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8244048B1BA2816A005DDDD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		824404901BA2816A005DDDD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,6 +69,8 @@
 				824404A31BA3BE88005DDDD7 /* PlayerCell.swift */,
 				824404A51BA3C699005DDDD7 /* Model */,
 				8244048F1BA2816A005DDDD7 /* Main.storyboard */,
+				3C0F4A441CE00BDE0077F472 /* GamePickerViewController.swift */,
+				3C0F4A421CE006C90077F472 /* PlayerDetailsViewControllerTableViewController.swift */,
 				824404921BA2816A005DDDD7 /* Assets.xcassets */,
 				824404941BA2816A005DDDD7 /* LaunchScreen.storyboard */,
 				824404971BA2816A005DDDD7 /* Info.plist */,
@@ -151,7 +157,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C0F4A431CE006C90077F472 /* PlayerDetailsViewControllerTableViewController.swift in Sources */,
 				824404A41BA3BE88005DDDD7 /* PlayerCell.swift in Sources */,
+				3C0F4A451CE00BDE0077F472 /* GamePickerViewController.swift in Sources */,
 				824404A01BA3BB79005DDDD7 /* Player.swift in Sources */,
 				8244048C1BA2816A005DDDD7 /* AppDelegate.swift in Sources */,
 				824404A21BA3BBC9005DDDD7 /* SampleData.swift in Sources */,
@@ -303,6 +311,7 @@
 				8244049C1BA2816A005DDDD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
